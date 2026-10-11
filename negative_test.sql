@@ -1,0 +1,14 @@
+INSERT INTO customers
+VALUES (1, 'Test Customer', 'Mumbai', '2026-05-01');
+
+INSERT INTO orders
+VALUES (101, 1, '2026-05-01', 'PLACED', 500.00);
+
+INSERT INTO orders
+VALUES (999, 999, '2026-05-01', 'PLACED', 500.00);
+
+INSERT INTO orders
+VALUES (999, 1, '2026-05-01', 'PENDING', 500.00);
+
+INSERT INTO orders
+VALUES (999, 1, '2026-05-01', 'PAID', -500.00);
